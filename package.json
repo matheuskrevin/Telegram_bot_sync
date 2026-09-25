@@ -1,0 +1,13 @@
+{
+  "name": "telegram-vendas-bot",
+  "version": "1.0.0",
+  "description": "Bot de vendas Telegram",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "node-telegram-bot-api": "^0.66.0"
+  }
+}
