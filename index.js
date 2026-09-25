@@ -173,3 +173,15 @@ Acesso durante 30 dias.
         );
     }
 });
+const express = require('express');
+
+const app = express();
+const PORT = process.env.PORT || 10000;
+
+app.get('/', (req, res) => {
+    res.send('Bot de vendas funcionando!');
+});
+
+app.listen(PORT, () => {
+    console.log(`🌐 Servidor HTTP rodando na porta ${PORT}`);
+});
